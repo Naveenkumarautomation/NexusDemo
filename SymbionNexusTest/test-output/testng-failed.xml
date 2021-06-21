@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nexus.testcases.NexusPricingMgrSummaryTest">
+      <class name="com.nexus.testcases.NexusHomePageTest">
         <methods>
-          <include name="pricingMgrSummary"/>
           <include name="setUp"/>
           <include name="teardown"/>
+          <include name="newLineSubmissonSelection"/>
         </methods>
-      </class> <!-- com.nexus.testcases.NexusPricingMgrSummaryTest -->
+      </class> <!-- com.nexus.testcases.NexusHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

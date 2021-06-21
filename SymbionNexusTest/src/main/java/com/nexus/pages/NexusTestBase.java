@@ -16,12 +16,12 @@ public class NexusTestBase {
 	public static Properties prop;
 	public static FileInputStream fis;
 	public static WebDriver driver;
-	static String driverPath = "C:\\SeleniumWebDrivers\\ChromeDriver";
+	static String driverPath = "C:\\SeleniumWebDrivers\\ChromeDriver\\ChromeDriver.exe";
 	
 	public static void Home_Page_Launch() throws IOException, InterruptedException{
 		
 		prop = new Properties();
-		fis = new FileInputStream("C:\\Users\\DELL\\eclipse-workspace\\Nexus\\SymbionNexusTest\\src\\main\\java\\com\\nexus\\config\\Config.Properties");
+		fis = new FileInputStream("C:\\Users\\DELL\\git\\NexusDemo\\SymbionNexusTest\\src\\main\\java\\com\\nexus\\config\\Config.Properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser") ;
 		if(browserName.equals("chrome")) {
