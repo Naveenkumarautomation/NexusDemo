@@ -30,7 +30,7 @@ public class NexusNewLineSummaryTest extends NexusTestBase{
 		
 }
 		
-	@Test
+	@Test(enabled=false)
 	public void newLineSummary() throws InterruptedException {
 		loginPage = new NexusLoginPage();
 		homePage = loginPage.loginSupplier(prop.getProperty("usernamesupplier"), prop.getProperty("password"));

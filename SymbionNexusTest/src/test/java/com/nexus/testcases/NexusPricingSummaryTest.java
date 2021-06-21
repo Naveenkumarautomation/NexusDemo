@@ -32,7 +32,7 @@ public class NexusPricingSummaryTest extends NexusTestBase{
 		
 }
 		
-	@Test
+	@Test(enabled=false)
 	public void pricingSummary() throws InterruptedException {
 		loginPage = new NexusLoginPage();
 		Thread.sleep(2000);

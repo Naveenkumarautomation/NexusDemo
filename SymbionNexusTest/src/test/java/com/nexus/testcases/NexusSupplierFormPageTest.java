@@ -29,7 +29,7 @@ public class NexusSupplierFormPageTest extends NexusTestBase{
 		supplierForm = new NexusSupplierFormPage();
 }
 		
-	@Test
+	@Test(enabled=false)
 	public void newLineSubmissonSelection() throws InterruptedException {
 		homePage.newLineSubmissionClick();
 		Thread.sleep(2000);

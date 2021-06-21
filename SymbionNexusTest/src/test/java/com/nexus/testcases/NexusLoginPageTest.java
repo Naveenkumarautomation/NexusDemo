@@ -27,7 +27,7 @@ public class NexusLoginPageTest extends NexusTestBase{
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void loginTest() throws InterruptedException {
 				
 		homePage = loginPage.loginSupplier(prop.getProperty("usernamesupplier"), prop.getProperty("password"));

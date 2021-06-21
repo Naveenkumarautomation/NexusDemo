@@ -26,7 +26,7 @@ public class NexusHomePageTest extends NexusTestBase {
 		homePage = loginPage.loginSupplier(prop.getProperty("usernamesupplier"), prop.getProperty("password"));
 }
 	
-	@Test	
+	@Test(enabled=false)	
 	public void newLineSubmissonSelection() throws InterruptedException {
 		homePage.newLineSubmissionClick();
 		Thread.sleep(2000);
