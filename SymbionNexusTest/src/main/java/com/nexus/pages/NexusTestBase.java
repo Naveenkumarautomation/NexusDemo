@@ -16,7 +16,7 @@ public class NexusTestBase {
 	public static Properties prop;
 	public static FileInputStream fis;
 	public static WebDriver driver;
-	static String driverPath = "D:\\Selenium\\chromedriver_win32\\chromedriver.exe";
+	static String driverPath = "C:\\SeleniumWebDrivers\\ChromeDriver";
 	
 	public static void Home_Page_Launch() throws IOException, InterruptedException{
 		
