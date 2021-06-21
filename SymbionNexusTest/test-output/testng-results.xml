@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-07T10:09:08 IST" name="Default suite" finished-at="2021-06-07T10:16:53 IST" duration-ms="464350">
+    <groups>
+    </groups>
+    <test started-at="2021-06-07T10:09:08 IST" name="Default test" finished-at="2021-06-07T10:16:53 IST" duration-ms="464350">
+      <class name="com.nexus.testcases.NexusPricingMgrSummaryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nexus.testcases.NexusPricingMgrSummaryTest@31368b99]" started-at="2021-06-07T10:09:08 IST" name="setUp" finished-at="2021-06-07T10:09:21 IST" duration-ms="12638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pricingMgrSummary()[pri:0, instance:com.nexus.testcases.NexusPricingMgrSummaryTest@31368b99]" started-at="2021-06-07T10:09:21 IST" name="pricingMgrSummary" finished-at="2021-06-07T10:16:53 IST" duration-ms="451568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingMgrSummary -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nexus.testcases.NexusPricingMgrSummaryTest@31368b99]" started-at="2021-06-07T10:16:53 IST" name="teardown" finished-at="2021-06-07T10:16:53 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nexus.testcases.NexusPricingMgrSummaryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

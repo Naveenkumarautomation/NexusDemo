@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nexus Automation Test Suite">
+    <test name="Nexus Test Regression Cases">
+         <classes>
+             <class name="com.nexus.testcases.NexusPricingMgrSummaryTest"/></classes>
+     </test>
+</suite>
